@@ -1,0 +1,25 @@
+{
+  "name": "Barriers to Innovation Report",
+  "authors": [
+    "Alejandro Saucedo <axsauze@gmailcom>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "^4.5.0",
+    "typed.js": "^1.1.1",
+    "jquery": "^2.2.3",
+    "bootstrap-grid": "^3.3.6-beta.1",
+    "nvd3": "^1.8.2"
+  }
+}

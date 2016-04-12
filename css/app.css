@@ -103,6 +103,11 @@ h2 {
     line-height: .83;
     margin-bottom: -.08em;
 }
+.main-content {
+	margin: auto auto;
+	padding: 0 40px 0 40px;
+	max-width: 1200px;
+}
 .main-container {
 	margin: 0px 0px 0px 400px;
 }

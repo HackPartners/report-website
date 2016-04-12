@@ -1,7 +1,9 @@
 
+html,
 body {
 	margin:0;
 	padding:0;
+	width: 100%;
 
 	font-family: "Avenir";
 }
@@ -115,6 +117,10 @@ h2 {
 	margin: auto auto;
 }
 
+.main-container iframe {
+	max-width: 80%;
+}
+
 .main-container .report-subtitle {
 	padding-top:60px;
 }
@@ -158,6 +164,5 @@ h2 {
 .footer {
 	background: black;
 	height: 300px;
-	width: 100%;
 }
 

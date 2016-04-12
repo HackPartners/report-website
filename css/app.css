@@ -1,0 +1,163 @@
+
+body {
+	margin:0;
+	padding:0;
+
+	font-family: "Avenir";
+}
+
+h1 {
+	font-size: 2.5em;
+	font-weight: 900;
+}
+h2 {
+	font-weight: 900;
+}
+
+.chapter-sidebar {
+	position: fixed;
+	height:100vh;
+	width: 100px;
+	z-index: 10;
+
+	background-color:purple;
+	background-image:url(http://www.mediacomponents.com/wp-content/uploads/2013/10/Depositphotos_29806609_l-1170x1170.jpg);
+}
+.chapter-sidebar .chapter-list {
+	list-style-type: none;
+	-webkit-padding-start: 0px;
+	text-align: center;
+}
+.chapter-sidebar .chapter-list i {
+	font-size: 2.3em;
+}
+.chapter-sidebar .chapter-list a {
+	color: white;
+	text-decoration: none;
+}
+.chapter-sidebar .chapter-list a:hover,
+.chapter-sidebar .chapter-list a.active {
+	color: white;
+	-webkit-stroke-width: 5.3px;
+   -webkit-stroke-color: #FFFFFF;
+   -webkit-fill-color: #FFFFFF;
+   text-shadow: 1px 0px 20px #FFFFFF;
+   -webkit-transition: width 0.3s; /*Safari & Chrome*/
+   transition: width 0.3s;
+   -moz-transition: width 0.3s; /* Firefox 4 */
+   -o-transition: width 0.3s; /* Opera */
+}
+.chapter-sidebar .chapter-list a .chapter-item {
+	margin-bottom: 30px;
+}
+
+.section-sidebar {
+	position:fixed;
+	height: 100vh;
+	width: 300px;
+	z-index:9;
+
+	margin-left: 100px;
+
+	background-color: #0D0D0D;
+}
+
+.section-sidebar .section-list {
+	list-style-type: none;
+	-webkit-padding-start: 0px;
+	margin-left: 20px;
+	text-align: left;
+}
+.section-sidebar .section-list a {
+	color: white;
+	text-decoration: none;
+}
+.section-sidebar .section-list a .section-item {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: #5E5E5E 1px solid;
+}
+.section-sidebar .section-list a:hover,
+.section-sidebar .section-list a.active {
+	color: white;
+	-webkit-stroke-width: 5.3px;
+   -webkit-stroke-color: #FFFFFF;
+   -webkit-fill-color: #FFFFFF;
+   text-shadow: 1px 0px 20px #FFFFFF;
+   -webkit-transition: width 0.3s; /*Safari & Chrome*/
+   transition: width 0.3s;
+   -moz-transition: width 0.3s; /* Firefox 4 */
+   -o-transition: width 0.3s; /* Opera */
+}
+
+.drop-first-letter {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    padding-top: 7px;
+    margin-left: -5px;
+    margin-right: 7px;
+    letter-spacing: -.03em;
+    line-height: .83;
+    margin-bottom: -.08em;
+}
+.main-container {
+	margin: 0px 0px 0px 400px;
+}
+
+.main-container h1, 
+.main-container h2,
+.main-container h3,
+.main-container h4,
+.main-container iframe,
+.main-container div {
+	padding: 0 80px 0 80px;
+	margin: auto auto;
+}
+
+.main-container .report-subtitle {
+	padding-top:60px;
+}
+.main-container .report-header {
+	color: white;
+	text-align: center;
+	height: 60vh;
+	position: relative;
+}
+.main-container .report-header .report-header-text-container {
+	position: absolute; 
+	left: 50%;
+	bottom: 30px;
+}
+.main-container .report-header .report-title {
+	position: relative; 
+	left: -50%; 
+}
+.main-container .report-header .report-description {
+	position: relative; 
+	left: -50%; 
+}
+.main-container p {
+	max-width: 700px;	
+	padding-top: 38px;
+	margin: auto auto;
+
+	font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+}
+.main-container .first-paragraph {
+	padding-top: 100px;
+}
+.main-container .last-paragraph {
+	padding-bottom: 200px;
+}
+
+.footer {
+	background: black;
+	height: 300px;
+	width: 100%;
+}
+
